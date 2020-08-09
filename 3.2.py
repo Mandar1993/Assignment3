@@ -12,4 +12,15 @@ for i in range(2, 25):
         print (i)
 
 
-#Output:10
+#Output:
+
+
+5
+7
+11
+13
+17
+19
+23
+
+
