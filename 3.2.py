@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
 
 #Problem Statement 2:
 # Write a Python program to implement your own myfilter() function which works exactly like Python's built-in function filter()
@@ -17,14 +12,4 @@ for i in range(2, 25):
         print (i)
 
 
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
+#Output:10
