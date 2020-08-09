@@ -1,21 +1,13 @@
+#Problem Statement 1:
+# Write a Python Program to implement your own myreduce() function which works exactly like Python's built-in function reduce()
+#Solution :
+def myreduce(l):
+    s = 0
+    for i in l:
+        s = s + i
+    return s
+j=myreduce([1,2,3,4,])
+print(j)
 
-#Problem Statement 2:
-# Write a Python program to implement your own myfilter() function which works exactly like Python's built-in function filter()
 
-# Solution:
-def f(x): 
-    return x % 2 != 0 and x % 3 != 0
-result = []
-for i in range(2, 25):
-    if f(i):
-        result.append(i)
-        print (i)
-
-#output:
-5
-7
-11
-13
-17
-19
-23
+#Output:10
